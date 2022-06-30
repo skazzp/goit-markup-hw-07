@@ -146,11 +146,11 @@ img {
 .nav-list__link:focus {
   color: var(--menu-sec-color);
 }
-.current {
+.nav-list--current {
   position: relative;
   color: var(--menu-sec-color);
 }
-.current::after {
+.nav-list--current::after {
   content: '';
   display: block;
   position: absolute;
@@ -195,7 +195,6 @@ img {
 /* ИКОНКИ МЕНЮ */
 .icon-mail {
   margin-right: 10px;
-  /* fill: currentColor; */
 }
 .icon-phone {
   margin-right: 10px;
@@ -614,7 +613,7 @@ img {
 .footer-socials {
   margin-right: 93px;
 }
-.footer-title {
+.footer__title {
   margin-top: 12px;
   font-weight: 700;
   font-size: 14px;
