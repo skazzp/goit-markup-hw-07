@@ -30,13 +30,16 @@
   &:focus {
     border: 1px solid $color-accent;
     outline: none;
+    & + .modal-form__icon {
+      fill: $color-accent;
+    }
   }
 }
 
-.modal-form__input:hover + .modal-form__icon,
-.modal-form__input:focus + .modal-form__icon {
-  fill: $color-accent;
-}
+// .modal-form__input:hover + .modal-form__icon,
+// .modal-form__input:focus + .modal-form__icon {
+//   fill: $color-accent;
+// }
 .modal-form__textarea {
   min-height: 120px;
   resize: none;

@@ -6,10 +6,6 @@
 }
 .projects-list__item {
   background: $bg-main;
-  //   transition-property: box-shadow;
-  //   transition-duration: $duration;
-  //   transition-timing-function: $timing;
-  //   transition-delay: 0;
   transition: box-shadow $duration $timing;
   &:hover,
   &:focus {

@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
@@ -5,22 +10,7 @@ body {
   color: $color-secondary;
   padding-bottom: 0;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  padding: 0px;
-  margin: 0px;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -33,11 +23,7 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+
 .center {
   display: flex;
   justify-content: center;
